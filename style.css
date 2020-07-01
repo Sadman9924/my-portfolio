@@ -7,7 +7,7 @@ h2 {
     font-weight: normal;
 }
 h1 {
-    font-size: 67px;
+    font-size: 50px;
     margin-top: -20px;
     font-weight: normal;
 }
@@ -91,4 +91,23 @@ footer,p {
 .footer-button,a {
     text-decoration: none;
     color: white;
+}
+.link-button:hover{
+
+    background-image: linear-gradient(45deg, blue, cyan);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.footer-button:hover{
+    background-image: linear-gradient(45deg, blue, cyan);
+    padding: 50px 348px;
+
+    border: 1px solid #EC4B74;
+    border-radius: 10px;
+}
+#name:hover{
+   color:blue, cyan ;
 }
